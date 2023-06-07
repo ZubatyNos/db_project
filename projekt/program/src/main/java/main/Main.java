@@ -19,12 +19,9 @@ public class Main {
 
         PGSimpleDataSource dataSource = new PGSimpleDataSource();
 
-//        dataSource.setServerName("db.dai.fmph.uniba.sk");
         dataSource.setServerName("localhost");
         dataSource.setPortNumber(5432);
-//        dataSource.setDatabaseName("playground");
         dataSource.setDatabaseName("postgres");
-//        dataSource.setUser("urbanek18@uniba.sk"); //todo dont forget to change back
         dataSource.setUser("postgres");
         dataSource.setPassword("mojeHeslo");
 
